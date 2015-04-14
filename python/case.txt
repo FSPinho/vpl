@@ -1,0 +1,14 @@
+case = 0
+input=ra on odnalor at acopip ed oriehc a acopip
+output=pipoca a cheiro de pipoca ta rolando no ar
+grade reduction = 100%
+
+case = 1
+input=lua de cristal que me faz sonhar
+output=rahnos zaf em euq latsirc ed aul
+grade reduction = 100%
+
+case = 2
+input=marquei um x no seu coracao
+output=oacaroc ues on x mu ieuqram
+grade reduction = 100%

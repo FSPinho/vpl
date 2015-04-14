@@ -75,7 +75,7 @@ def analizeCase(caseText, responseFile):
 
     open('temp', 'w').write(caseInput)
     #script = 'python ' + responseFile + ' < temp' #felipe
-    script = responseFile + ' < temp'#sena
+    script = './' + responseFile + ' < temp'#sena
     p = os.popen(script,"r")
     result = ''
     while 1:
@@ -112,7 +112,7 @@ def main():
     del cases[0]
 
     flagCorrect = True
-    
+
     for i in cases:
         flagCorrect &= analizeCase(i, responseFile)
 
