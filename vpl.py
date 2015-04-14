@@ -16,6 +16,10 @@ def formatOutput(text):
         text = text.replace(' \n', '\n')
     while '  ' in text:
         text = text.replace('  ', ' ')
+    while text[len(text) - 1] == '\n':
+        text = text[0:len(text) - 1]
+    while text[len(text) - 1] == ' ':
+        text = text[0:len(text) - 1]
 
     return text
 
@@ -87,6 +91,7 @@ def analizeCase(caseText, responseFile):
         os.remove('temp')
 
     result = formatOutput(result)
+    print [result, caseOutput]
 
     if result != caseOutput:
         print 'Test ', caseNumber
