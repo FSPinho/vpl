@@ -1,6 +1,6 @@
 case = 0
 input =4 2 1 1 1
-output=1
+output=1 2 4
 grade reduction = 100%
 
 case = 0

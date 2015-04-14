@@ -91,7 +91,6 @@ def analizeCase(caseText, responseFile):
         os.remove('temp')
 
     result = formatOutput(result)
-    print [result, caseOutput]
 
     if result != caseOutput:
         print 'Test ', caseNumber
