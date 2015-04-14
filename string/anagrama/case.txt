@@ -1,0 +1,25 @@
+case = 0
+input =batata
+tabata
+output =sim
+
+
+case = 1
+input=borboleta
+brobuleta
+output=nao
+
+case = 2
+input=amor
+roam
+output=sim
+
+case = 3
+input=paralelepipedo
+pepidoelelapar
+output=sim
+
+case = 4
+input=pegasus
+susgae
+output=nao

@@ -1,0 +1,26 @@
+case = 0
+input =Paralelepipedo
+output=Pa-ra-le-le-pi-pe-do");
+grade reduction = 100%
+
+case = 0
+input =Paraguai
+output=Pa-ra-guai
+grade reduction = 100%
+
+case = 0
+input =Havaiana de Palmeira
+output=Ha-vaia-na de Pa-lmei-ra
+grade reduction = 100%
+
+case = 0
+input =Floresta Amazonica
+output=Flo-re-sta A-ma-zo-ni-ca
+grade reduction = 100%
+
+case = 0
+input =Eu sou o rei de FuP
+output=Eu sou o rei de Fu-P
+grade reduction = 100%
+
+

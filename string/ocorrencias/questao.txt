@@ -1,0 +1,40 @@
+#include <iostream>
+#include <motor.h>
+using namespace std;
+//@autor David Sena
+/*
+    Amora está apaixonada e quer descobrir quantas vezes em sua cartinha de amor
+    aparecem palavras amorosas.
+
+    Escreva uma função em que recebe como parâmetro uma substring e uma string e
+    retorna como resultado o número de ocorrências da substring na string.
+*/
+
+int n_substring(string menor, string maior)
+{
+    //@@return 0;
+    int pos = 0;
+    int cont = 0;
+    pos = maior.find(menor);
+    while(pos != (int)string::npos){
+        cont++;
+        pos = maior.find(menor, pos + 1);
+    }
+    return cont;
+}
+
+int main(){
+    cerr << "#open n_substring PRATA ";
+    string in = "amo o amor que me amou, oh amora amortecida";
+    cerr << (n_substring("amor", in) == 3);
+    cerr << (n_substring("amo", in) == 5);
+    //@--
+    cerr << (n_substring("a", in) == 7);
+    cerr << " #end";
+    return 0;
+}
+
+/*
+    A string possui um método find que serve para procurar substrings
+    Pesquise sobre ele.
+*/

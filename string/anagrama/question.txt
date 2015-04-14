@@ -1,0 +1,42 @@
+Sabia que o seu nome e o meu são um anagrama? Disse Rocicleia para Licioroca.
+Licioroca não sabia português, mas sabia programar. Ajude Licioroca a fazer um 
+código que informa se duas palavras são anagramas.
+
+Uma palavra é anagrama de outra se é formada pelas mesmas letras
+nas mesmas quantidades, mas em qualquer ordem. 
+Dadas duas palavras, imprima sim se elas são anagramas e não se não sao anagramas.
+
+Regras:
+A entrada são duas palavras, uma por linha, apenas caracteres minusculos e sem espaços.
+A saida deve ser apenas "sim" ou "nao"
+
+Exemplo:
+>>
+rocicleia
+licioroca
+<<
+sim
+
+>>
+batata
+tabata
+<<
+sim
+
+>>
+borboleta
+brobuleta
+<<
+nao
+
+>>
+amor
+roam
+<<
+sim
+
+>>
+paralelepipedo
+pepidoelelapar
+<<
+sim
